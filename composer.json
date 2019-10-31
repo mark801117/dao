@@ -1,0 +1,21 @@
+{
+    "name": "cloud/dao",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Cloud",
+            "email": "cloud@be-yond.com.tw"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Dao\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dao\\Test\\": "tests"
+        }
+    }
+}
