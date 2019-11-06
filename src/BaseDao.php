@@ -40,7 +40,7 @@ class BaseDao
     }
     public function fetch($fetch_type)
     {
-        $this->stmt->fetch($fetch_type);
+        return $this->stmt->fetch($fetch_type);
     }
     public function fetchAll($fetch_type)
     {
